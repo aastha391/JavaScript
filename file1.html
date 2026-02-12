@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            background-color: antiquewhite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .container{
+            height: 500px;
+            width: 600px;
+           display: flex;
+
+        }
+        .image img{
+            height: 500px;
+            width: 300px;
+            background-size: cover;
+            border-top-left-radius: 10px;
+            border-bottom-left-radius: 10px;
+        }
+        .content{
+            background-color: white;
+            padding: 30px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+        .p1{
+            color: grey;
+            padding-bottom: 20px;
+        }
+        .content h1{
+            padding-bottom: 20px;
+        }
+        .price{
+            display: flex;
+        }
+        #p2{
+        font-size: 40px; 
+        font-weight:bold;
+        color: rgb(54, 124, 54); 
+        }
+        #p3{
+            font-size: smaller;
+            font-weight: bold;
+            padding-left: 20px;
+            padding-top: 15px;
+            color: gray;
+            text-decoration: line-through;
+        }
+        button{
+            margin: 20px;
+            padding: 20px;
+            width: 200px;
+            background-color: rgb(54, 124, 54);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+             <img src="photo-1708733145706-82da0d0596e9.jpeg">
+        </div>
+        <div class="content">
+            <p class="p1">P E R F U M E</p>
+            <h1>Gabrielle Essence Eau De Parfum</h1>
+            <p class="p1">A floral, solar and voluptous interpretation composed by Olivier Polge, Perfumer-Creator for the House of CHANEL.</p>
+            <div class="price">
+                <p id="p2">$149.99</p>
+                <p id="p3">$169.99</p>
+            </div>
+            <button>Add to cart</button>
+        </div>
+    </div>
+</body>
+</html>
